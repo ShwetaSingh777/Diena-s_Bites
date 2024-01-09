@@ -1,0 +1,259 @@
+.bg-pink{
+    background-color: #e59ef5;
+}
+
+.right-nav{
+    margin-left: 19rem !important;
+}
+
+.second-nav{
+    color: #0d0d0d;
+}
+
+.second_nav:hover{
+    color: hotpink;
+}
+
+.text-align-center{
+    text-align: center;
+}
+
+.last_info{
+    background-color: #ff6d7e !important;
+    padding: 4rem !important;
+}
+
+.purple-background{
+    background-color: #d6bbff !important;
+    padding: 100px !important;
+}
+
+.text-change:hover .change-text{
+    display: none;
+    transition: 0.5s;
+}
+
+.text-view{
+    margin-top: 30px !important;
+    display: none;
+    color: mediumpurple;
+}
+
+.text-change:hover + .text-view{
+    margin-top: 30px !important;
+    display: block;
+}
+
+.grey-background{
+    background-color: #eaeaea;
+    margin: auto;
+    text-align: center;
+}
+
+.grey-background-2{
+    background-color: #eaeaea;
+    margin: auto;
+}
+
+.marron_background{
+    background-color: maroon;
+    color: white;
+    text-align: center;
+}
+
+.add_to_cart:hover{
+    opacity: 40%;
+}
+
+.circle-mask{
+    border-radius: 50%;
+}
+
+.side_table{
+    width: 30%;
+    padding-left: 15px;
+    margin-left: 15px;
+    float: right;
+}
+
+.main_table{
+    width: 60%;
+}
+
+.padding_extra{
+    padding: 120px;
+}
+
+.map-container{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.map-container iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+.pink_background{
+    background-color: pink;
+    text-align: center;
+}
+
+.image-box{
+    width: 100%;
+    padding: 20px;
+}
+
+.image-box input[type="radio"]{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    outline: none;
+    appearance: none;
+    cursor: pointer;
+
+}
+
+#img-01{
+    background-image: url("Web_images/cookie_bites_1.webp");
+    background-size: cover;
+}
+
+#img-02{
+    background-image: url("Web_images/cookie_bites_2.webp");
+    background-size: cover;
+}
+
+#img-03{
+    background-image: url("Web_images/cookie_bites_7.webp");
+    background-size: cover;
+}
+
+#img-04{
+    background-image: url("Web_images/cookie_bites_3.webp");
+    background-size: cover;
+}
+
+#img-05{
+    background-image: url("Web_images/cookie_bites_4.webp");
+    background-size: cover;
+}
+
+#img-06{
+    background-image: url("Web_images/cookies_package.webp");
+    background-size: cover;
+}
+
+#img-07{
+    background-image: url("Web_images/cookie_bites_5.webp");
+    background-size: cover;
+}
+
+#img-08{
+    background-image: url("Web_images/cookie_bites_6.webp");
+    background-size: cover;
+}
+
+#img-09{
+    background-image: url("Web_images/cookies_package_2.webp");
+    background-size: cover;
+}
+
+#img-01:checked ~ .big-image{
+    background-image: url("Web_images/cookie_bites_1.webp");
+    background-size: cover;
+}
+
+#img-02:checked ~ .big-image{
+    background-image: url("Web_images/cookie_bites_2.webp");
+    background-size: cover;
+}
+
+#img-03:checked ~ .big-image{
+    background-image: url("Web_images/cookie_bites_7.webp");
+    background-size: cover;
+}
+
+#img-04:checked ~ .big-image{
+    background-image: url("Web_images/cookie_bites_3.webp");
+    background-size: cover;
+}
+
+#img-05:checked ~ .big-image{
+    background-image: url("Web_images/cookie_bites_4.webp");
+    background-size: cover;
+}
+
+#img-06:checked ~ .big-image{
+    background-image: url("Web_images/cookies_package.webp");
+    background-size: cover;
+}
+
+#img-07:checked ~ .big-image{
+    background-image: url("Web_images/cookie_bites_5.webp");
+    background-size: cover;
+}
+
+#img-08:checked ~ .big-image{
+    background-image: url("Web_images/cookie_bites_6.webp");
+    background-size: cover;
+}
+
+#img-09:checked ~ .big-image{
+    background-image: url("Web_images/cookies_package_2.webp");
+    background-size: cover;
+}
+
+.big-image{
+    width: 100%;
+    height: 600px;
+    margin-top: 10px;
+}
+
+.box {
+    position: relative;
+    width: 50%;
+}
+
+.hover-image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.image-overlay {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.box:hover .hover-image {
+    opacity: 0.3;
+}
+
+.box:hover .image-overlay {
+    opacity: 1;
+}
+
+.purple_text{
+    color: #2cd4e8;
+}
+
+.purple_text:hover{
+    text-decoration: underline;
+}
+
+
+
